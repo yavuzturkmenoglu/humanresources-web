@@ -10,8 +10,4 @@ export const fieldConstraints = {
     NameMinLenght: 2,
     NameMaxLenght: 200,
   },
-  equipment: {
-    NameMinLenght: 2,
-    NameMaxLenght: 200,
-  },
 };

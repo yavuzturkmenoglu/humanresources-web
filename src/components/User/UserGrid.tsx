@@ -64,7 +64,7 @@ export default function UserGrid(props: UserGridProps) {
           {users.map((x) => {
             return (
               <>
-                <tr>
+                <tr key={x.Id}>
                   <th>{x.Id}</th>
                   <td>{x.Name.toString()}</td>
                   <td>{x.LastName}</td>

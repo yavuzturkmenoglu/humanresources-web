@@ -14,7 +14,7 @@ export function validateUserDto(userDto: UserDto) {
     return false;
   }
 
-  if (!userDto.Gender) {
+  if (userDto.Gender === undefined) {
     invalidFieldToast(nameof<UserDto>((x) => x.Gender));
     return false;
   }
