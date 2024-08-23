@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.mainContainer {
+  height: 80vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.genericHeader {
+  color: #bdc3c7;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.genericDarkerHeader {
+  color: #95a5a6;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slightlyBiggerText {
+  font-size: 1.1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.smallerText {
+  font-size: 12px !important;
+  color: #fbf6e2 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*#region Modal*/
+.modal-content {
+  background-color: #212529 !important;
+  color: #ecf0f1 !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 0px 15px #7f8c8d !important;
 }
+.modal-header {
+  border-bottom: 1px solid #ecf0f1 !important;
+}
+
+.modal-footer {
+  border-top: 1px solid #ecf0f1 !important;
+  justify-content: center !important;
+  background-color: #212529 !important;
+}
+
+.modal-footer > * {
+  margin: 0 !important;
+}
+
+.form-floating > label {
+  color: #212529 !important;
+}
+/*#endregion */
